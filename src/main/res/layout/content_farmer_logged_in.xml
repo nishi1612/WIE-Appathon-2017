@@ -1,0 +1,62 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="fill_parent"
+    android:background="#e8e8e7"
+    android:layout_height="fill_parent"
+    tools:context="com.example.application.projectx.MainActivity">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/gradientf"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="50dip"
+    android:weightSum="0" >
+
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="381dp"
+        android:layout_height="wrap_content"
+        android:text="By choosing post option you can post the details of crop \n By choosing search option you can search which retailers around you are having the crop requirements similar to you"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="100dp"
+        android:background="#13b586"
+        android:onClick="post"
+        android:text="post"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+    <!--<Button android:layout_width="190dp"
+        android:layout_height="38dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="update"
+        android:textColor="#fff"
+        android:textSize="13dp"
+        android:background="#eb543b"/>-->
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="#2683c2"
+        android:onClick="search"
+        android:text="search"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+
+</LinearLayout>
+    </ScrollView>

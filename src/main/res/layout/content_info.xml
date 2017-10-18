@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:background="#e8e8e7"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dip"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dp"
+                android:background="#13b586"
+                android:orientation="horizontal"
+                android:layout_alignParentTop="true">
+
+                <ImageView android:layout_width="40dp"
+                    android:layout_height="40dp"
+
+                    android:layout_marginLeft="10dp"/>
+
+
+                <TextView android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Info"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="25dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+
+                    android:layout_gravity="center_horizontal|center_vertical"/>
+
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="48dp"
+                    android:gravity="right"
+                    android:orientation="horizontal" >
+
+                    <ImageView android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nBasic Info about app"
+            android:textAlignment="center"
+            android:textColor="@color/colorAccent"
+            android:textSize= "30dip" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="\nRural Scheme is an interface between farmers and retailers meant for a constant contact between them As soon as the farmer's crop is grown fully, he can post it via farmer login forum by giving details of the crop. Similarly retailer can also post about his requirements for the crop.
+Hence this platform acts as an interface between them so that supply and demand gap is filled in and moreover any crop grown its not wasted but landed into the retailer's hand before it looses its essence.
+Thus this app is an execlusive platform for interface between farmer and retailer."
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20dip" />
+    </LinearLayout>
+
+
+
+</ScrollView>
