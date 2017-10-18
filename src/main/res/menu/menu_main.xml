@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.application.projectx.MainActivity">
+
+    <item
+        android:id="@+id/info"
+        android:orderInCategory="1"
+        android:title="Info"
+        android:icon="@drawable/info"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/home"
+        android:orderInCategory="2"
+        android:title="Info"
+        android:icon="@drawable/home"
+        app:showAsAction="ifRoom"
+        />
+
+</menu>
