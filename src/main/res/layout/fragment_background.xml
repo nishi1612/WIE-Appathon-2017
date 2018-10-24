@@ -4,3 +4,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#d8f7f4"
+    android:backgroundTint="#d8f7f4"
+    tools:context="com.example.application.projectx.Background">
+
+    <!-- TODO: Update blank fragment layout -->
+
+</FrameLayout>
